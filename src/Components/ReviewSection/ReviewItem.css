@@ -1,0 +1,71 @@
+.review-holder {
+    margin-top: 0px;
+    margin-left: 16px;
+    margin-right: 16px;
+    flex-direction: row;
+    display: flex;
+    gap: 6px;
+}
+
+.user-icon-container {
+    margin-top: 12px;
+    display: flex;
+    background-color: rgb(255, 213, 183);
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.user-icon {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+
+.review {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.review-l1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.review-l2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.review-l3-paragraph {
+    margin-top: -16px;
+    color: #333;
+}
+
+.reviewer-name,
+.review-source {
+    font-weight: bold;
+    font-size: 14.5px;
+}
+
+.reviewed-at {
+    font-size: 14px;
+    color: rgba(1, 1, 1, 0.8)
+}
+
+.review-action-icons-container {
+    gap: 8px;
+    display: flex;
+}
+
+.date {
+    font-size: 12px;
+    font-weight: 600;
+    color: gray;
+}

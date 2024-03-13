@@ -1,4 +1,6 @@
 import React from 'react'
+import ReviewItem from './ReviewItem'
+import './ReviewList.css'
 
 const reviewsJsonURL = 'https://api.npoint.io/232b0f31ea83ac6883ad'
 
@@ -20,9 +22,10 @@ const ReviewList = () => {
             {
                 data?.map((item, index) => {
                     return (
-                        <div>
-                            <p>review {index}</p>
-                        </div>
+                        <ReviewItem
+                            key={item.review_id}
+                            review={item}
+                        />
                     )
                 })
             }
