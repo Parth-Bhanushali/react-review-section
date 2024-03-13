@@ -1,0 +1,16 @@
+.tooltip {
+    position: fixed;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    z-index: 9999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
