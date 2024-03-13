@@ -1,3 +1,5 @@
+import { FaStar, FaRegStar, FaStarHalfAlt } from 'react-icons/fa';
+
 const StarRating = ({ rating }) => {
     const stars = [];
     const totalStars = 5;
