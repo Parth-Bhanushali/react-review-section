@@ -1,9 +1,10 @@
 import './App.css';
+import CustomerReviewsSection from './Components/ReviewSection/CustomerReviewsSection';
 
 function App() {
   return (
     <div className="App">
-      <p>Hello world</p>
+      <CustomerReviewsSection />
     </div>
   );
 }
