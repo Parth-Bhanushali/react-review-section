@@ -1,4 +1,5 @@
 import ReviewList from './ReviewList'
+import './CustomerReviewsSections.css'
 
 const CustomerReviewsSection = () => {
     return (
