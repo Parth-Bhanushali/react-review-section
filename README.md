@@ -1,3 +1,6 @@
+# Host link
+[https://sentiment-review-react-by-parth.netlify.app/](https://sentiment-review-react-by-parth.netlify.app/)
+
 # Screenshots
 **Click on images to enlarge**
 
