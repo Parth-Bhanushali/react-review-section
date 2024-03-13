@@ -1,3 +1,12 @@
+# Screenshots
+**Click on images to enlarge**
+
+<img src=screenshots/Screenshot_1.png height=500 > 
+
+
+<img src=screenshots/Screenshot_2.png height=500 >
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
